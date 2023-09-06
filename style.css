@@ -1,0 +1,26 @@
+:root {
+    --text-color: red;
+}
+
+p {
+    color: var(--text-color);
+}
+
+h2 {
+    color:blueviolet;
+}
+
+#container .ptext {
+    color: aquamarine;
+}
+
+.ptext {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkcyan;
+}
+
+#container {
+    border: 2px solid green;
+    padding: 40px;
+}
