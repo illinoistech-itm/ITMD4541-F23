@@ -1,0 +1,19 @@
+/* eslint-disable react/prop-types */
+export function Box(props){
+    const divStyle = {
+        width: '400px',
+        height: '400px',
+        backgroundColor: props.color,
+        color: '#ffffff',
+        fontWeight: 'bold',
+        fontSize: '20px',
+        textAlign: 'center',
+        boxSizing: 'border-box',
+        padding: '20px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center'
+    };
+
+    return <div style={divStyle}>{props.text}</div>;
+}
